@@ -1,0 +1,38 @@
+[
+  {
+    "id": "adr:audience-data-transparency-boundary",
+    "number": 1001,
+    "slug": "audience-data-transparency-boundary",
+    "title": "Audience Data Transparency Boundary",
+    "filename": "ADR-1001-audience-data-transparency-boundary.yaml",
+    "target_path": ".ssot/adr/ADR-1001-audience-data-transparency-boundary.yaml",
+    "sha256": "883d4995f45fb05d8924ff3b9a8473cfb0ff7e4b771ca8301fa974d3e14b7f6c",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-audience-data-transparency",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  },
+  {
+    "id": "adr:audience-taxonomy-and-provenance-policy",
+    "number": 1002,
+    "slug": "audience-taxonomy-and-provenance-policy",
+    "title": "Audience Taxonomy And Provenance Policy",
+    "filename": "ADR-1002-audience-taxonomy-and-provenance-policy.yaml",
+    "target_path": ".ssot/adr/ADR-1002-audience-taxonomy-and-provenance-policy.yaml",
+    "sha256": "f13f133176bb406dbfbaa7fa2b9be0f9c9da6776cce18328c64f3c50503dc588",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-audience-data-transparency",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  }
+]
