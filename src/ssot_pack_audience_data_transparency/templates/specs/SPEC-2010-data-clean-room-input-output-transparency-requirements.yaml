@@ -1,0 +1,35 @@
+{
+  "id": "spc:data-clean-room-input-output-transparency-requirements",
+  "number": 2010,
+  "slug": "data-clean-room-input-output-transparency-requirements",
+  "title": "Data Clean Room Input Output Transparency Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream clean-room input disclosure, output disclosure, permitted use, aggregation, and measurement or activation constraints.",
+    "excludes": [
+      "Clean-room vendor procurement",
+      "Cryptographic protocol implementation details unless selected downstream",
+      "Non-audience clean-room workflows"
+    ]
+  },
+  "authority_sources": [
+    "IAB Data Clean Rooms Guidance",
+    "IAB Tech Lab Attribution Data Matching Protocol where applicable"
+  ],
+  "requirements": [
+    "Record clean-room input disclosures, output disclosures, permitted-use constraints, aggregation constraints, and measurement or activation constraints.",
+    "Link clean-room outputs to segment provenance, export records, and downstream claims.",
+    "Retain clean-room job reports, validation outputs, and rejected output evidence."
+  ],
+  "verification": [
+    "clean-room input/output disclosure tests",
+    "aggregation and permitted-use constraint tests",
+    "clean-room evidence linkage tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:data-clean-room-audience-output-transparency-policy"
+  ]
+}

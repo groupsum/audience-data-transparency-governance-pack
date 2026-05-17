@@ -1,0 +1,35 @@
+{
+  "id": "spc:audience-segment-provenance-lineage-requirements",
+  "number": 2003,
+  "slug": "audience-segment-provenance-lineage-requirements",
+  "title": "Audience Segment Provenance Lineage Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream segment lineage from source collection through transformation and activation/export.",
+    "excludes": [
+      "Raw event taxonomy unrelated to audience segments",
+      "Customer identity resolution logic",
+      "Financial reporting lineage"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard",
+    "IAB Tech Lab measurement and data transparency materials"
+  ],
+  "requirements": [
+    "Record segment source, provider, collection basis, transformation steps, taxonomy mapping, activation, and export lineage.",
+    "Keep lineage records linkable to disclosure records and audit evidence.",
+    "Fail or flag segment use when required lineage is absent under downstream policy."
+  ],
+  "verification": [
+    "lineage chain completeness tests",
+    "disclosure-to-lineage linkage tests",
+    "missing lineage failure-path tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:audience-segment-provenance-policy"
+  ]
+}

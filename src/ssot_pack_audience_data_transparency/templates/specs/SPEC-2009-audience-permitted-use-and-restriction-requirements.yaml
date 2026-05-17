@@ -1,0 +1,34 @@
+{
+  "id": "spc:audience-permitted-use-and-restriction-requirements",
+  "number": 2009,
+  "slug": "audience-permitted-use-and-restriction-requirements",
+  "title": "Audience Permitted Use And Restriction Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream permitted use, restriction, eligibility, and policy metadata before segment activation or export.",
+    "excludes": [
+      "Consent-string syntax",
+      "Contract lifecycle management",
+      "Customer identity resolution"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard"
+  ],
+  "requirements": [
+    "Represent permitted use, restrictions, eligibility, provider policy metadata, and export/activation constraints for audience data.",
+    "Evaluate permitted-use and restriction metadata before segment activation or export.",
+    "Retain eligibility decisions and rejected-use evidence."
+  ],
+  "verification": [
+    "permitted-use metadata validation tests",
+    "restriction and eligibility decision tests",
+    "rejected-use evidence tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:audience-data-provider-and-permitted-use-policy"
+  ]
+}

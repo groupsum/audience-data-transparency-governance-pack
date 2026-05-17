@@ -1,0 +1,28 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2001"
+number: 2001
+slug: "audience-data-transparency-target-curation-requirements"
+title: "Audience Data Transparency Target Curation Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "This repository must curate audience data transparency targets only when they define audience data disclosure, provider/source metadata, taxonomy mapping, segment provenance, recency, permitted use, export transparency, clean-room input/output disclosure, or audit evidence expectations."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Requirements
+  
+  This repository must curate audience data transparency targets only when they define audience data disclosure, provider/source metadata, taxonomy mapping, segment provenance, recency, permitted use, export transparency, clean-room input/output disclosure, or audit evidence expectations.
+  
+  Each curated target must record the authority owner, source title, source type, governed transparency capability, and version or publication date when available.
+  
+  The curated target set must include IAB Tech Lab Data Transparency Standard, IAB Tech Lab Audience Taxonomy, IAB Tech Lab Content Taxonomy, IAB Data Clean Rooms Guidance, and IAB measurement/data transparency materials where they govern audience data transparency.
+  
+  ## Exclusions
+  
+  The curation surface excludes customer identity schema, consent transport, general event telemetry, ad supply-chain transparency, and advertising measurement quality unless used only as contextual input for audience transparency.
+spec_kind: "governance"

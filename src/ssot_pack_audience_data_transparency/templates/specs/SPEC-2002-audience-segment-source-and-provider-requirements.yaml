@@ -1,0 +1,35 @@
+{
+  "id": "spc:audience-segment-source-and-provider-requirements",
+  "number": 2002,
+  "slug": "audience-segment-source-and-provider-requirements",
+  "title": "Audience Segment Source And Provider Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream provider identity, source type, collection path, and data origin metadata for audience segments.",
+    "excludes": [
+      "Audience taxonomy category mapping",
+      "Content taxonomy category mapping",
+      "Consent capture mechanics"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard"
+  ],
+  "requirements": [
+    "Validate provider identity, source type, source relationship, collection path, and data origin metadata for each governed audience segment.",
+    "Preserve provider/source metadata through activation and export.",
+    "Flag segments with missing or inconsistent source/provider metadata before use."
+  ],
+  "verification": [
+    "source/provider metadata validation tests",
+    "activation/export persistence tests",
+    "missing provider failure-path tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:audience-data-provider-and-permitted-use-policy",
+    "adr:audience-segment-provenance-policy"
+  ]
+}

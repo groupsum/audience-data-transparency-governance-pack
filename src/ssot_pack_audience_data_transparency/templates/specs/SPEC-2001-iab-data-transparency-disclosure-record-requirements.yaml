@@ -1,0 +1,34 @@
+{
+  "id": "spc:iab-data-transparency-disclosure-record-requirements",
+  "number": 2001,
+  "slug": "iab-data-transparency-disclosure-record-requirements",
+  "title": "IAB Data Transparency Disclosure Record Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream audience data transparency disclosure records.",
+    "excludes": [
+      "Consent-string transport",
+      "Customer identity profile schema",
+      "Advertising supply-chain seller transparency"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard"
+  ],
+  "requirements": [
+    "Define the disclosure fields required before audience data is activated, exported, or used in governed decisioning.",
+    "Validate disclosure metadata for data source, provider, collection method, permitted use, restrictions, and segment context.",
+    "Retain disclosure validation outputs and rejected disclosure evidence."
+  ],
+  "verification": [
+    "disclosure record schema or parser tests",
+    "missing required disclosure field tests",
+    "invalid and rejected disclosure evidence tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:audience-data-transparency-disclosure-policy"
+  ]
+}

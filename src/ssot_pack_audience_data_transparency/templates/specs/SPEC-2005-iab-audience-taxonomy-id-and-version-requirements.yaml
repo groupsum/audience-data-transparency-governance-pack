@@ -1,0 +1,34 @@
+{
+  "id": "spc:iab-audience-taxonomy-id-and-version-requirements",
+  "number": 2005,
+  "slug": "iab-audience-taxonomy-id-and-version-requirements",
+  "title": "IAB Audience Taxonomy ID And Version Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream IAB Audience Taxonomy identifiers, labels, hierarchy, and taxonomy version references.",
+    "excludes": [
+      "Content taxonomy identifiers",
+      "Customer identity resolution",
+      "Activation optimization"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Audience Taxonomy"
+  ],
+  "requirements": [
+    "Store audience taxonomy identifier, label, hierarchy path, and taxonomy version for mapped audience segments.",
+    "Validate taxonomy identifiers and version references against the downstream-selected taxonomy source snapshot.",
+    "Represent deprecated, changed, missing, or locally extended audience taxonomy values explicitly."
+  ],
+  "verification": [
+    "audience taxonomy ID validation tests",
+    "taxonomy version reference tests",
+    "deprecated and missing taxonomy handling tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:iab-audience-taxonomy-classification-policy"
+  ]
+}

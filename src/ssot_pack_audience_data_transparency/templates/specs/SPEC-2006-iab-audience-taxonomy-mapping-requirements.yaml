@@ -1,0 +1,34 @@
+{
+  "id": "spc:iab-audience-taxonomy-mapping-requirements",
+  "number": 2006,
+  "slug": "iab-audience-taxonomy-mapping-requirements",
+  "title": "IAB Audience Taxonomy Mapping Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream mapping from local audience segment categories to IAB Audience Taxonomy categories.",
+    "excludes": [
+      "Content/contextual category mapping",
+      "Provider identity metadata",
+      "Consent policy decisions"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Audience Taxonomy"
+  ],
+  "requirements": [
+    "Maintain mapping records from local audience segment categories to IAB Audience Taxonomy categories.",
+    "Represent unmapped, ambiguous, many-to-one, and one-to-many mappings explicitly.",
+    "Retain mapping validation outputs and taxonomy source snapshots."
+  ],
+  "verification": [
+    "local-to-IAB audience mapping tests",
+    "ambiguous and unmapped category tests",
+    "mapping evidence retention tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:iab-audience-taxonomy-classification-policy"
+  ]
+}

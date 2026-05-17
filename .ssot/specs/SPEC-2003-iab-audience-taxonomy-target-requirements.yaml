@@ -1,0 +1,24 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2003"
+number: 2003
+slug: "iab-audience-taxonomy-target-requirements"
+title: "IAB Audience Taxonomy Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "IAB Audience Taxonomy targets must be curated as audience segment classification surfaces. Source records must preserve taxonomy identifiers, labels, hierarchy, version references, deprecated or changed categories when available, and mapping expectations for local segment categories."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Requirements
+  
+  IAB Audience Taxonomy targets must be curated as audience segment classification surfaces. Source records must preserve taxonomy identifiers, labels, hierarchy, version references, deprecated or changed categories when available, and mapping expectations for local segment categories.
+  
+  ## Evidence
+  
+  The repository must map audience taxonomy targets to downstream templates that require taxonomy source snapshots, mapping tables, taxonomy version references, and ambiguous/unmapped category handling.
+spec_kind: "governance"

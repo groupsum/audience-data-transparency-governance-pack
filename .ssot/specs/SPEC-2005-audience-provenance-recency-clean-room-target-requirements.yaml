@@ -1,0 +1,26 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2005"
+number: 2005
+slug: "audience-provenance-recency-clean-room-target-requirements"
+title: "Audience Provenance Recency Clean Room Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Audience provenance, recency, and clean-room targets must cover segment source lineage, transformation lineage, freshness timestamps, refresh cadence, lookback windows, expiration, clean-room input disclosures, clean-room output disclosures, aggregation constraints, permitted-use constraints, and retained audit reports."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Requirements
+  
+  Audience provenance, recency, and clean-room targets must cover segment source lineage, transformation lineage, freshness timestamps, refresh cadence, lookback windows, expiration, clean-room input disclosures, clean-room output disclosures, aggregation constraints, permitted-use constraints, and retained audit reports.
+  
+  The repository must keep these targets implementation-neutral and must not require one clean-room vendor, identity graph, data warehouse, activation platform, or measurement provider.
+  
+  ## Evidence
+  
+  Downstream templates must identify the evidence artifacts required to substantiate provenance, recency, clean-room output, export, and audit claims.
+spec_kind: "governance"

@@ -38,10 +38,18 @@ Audience Data Transparency And Taxonomy
 
 ## Included SPECs
 
-- `spc:iab-data-transparency-contract` - IAB Data Transparency Contract
-- `spc:iab-audience-taxonomy-contract` - IAB Audience Taxonomy Contract
-- `spc:iab-content-taxonomy-contract` - IAB Content Taxonomy Contract
-- `spc:segment-provenance-recency-contract` - Segment Provenance Recency Contract
+- `spc:iab-data-transparency-disclosure-record-requirements` - IAB Data Transparency Disclosure Record Requirements
+- `spc:audience-segment-source-and-provider-requirements` - Audience Segment Source And Provider Requirements
+- `spc:audience-segment-provenance-lineage-requirements` - Audience Segment Provenance Lineage Requirements
+- `spc:audience-segment-recency-and-expiration-requirements` - Audience Segment Recency And Expiration Requirements
+- `spc:iab-audience-taxonomy-id-and-version-requirements` - IAB Audience Taxonomy ID And Version Requirements
+- `spc:iab-audience-taxonomy-mapping-requirements` - IAB Audience Taxonomy Mapping Requirements
+- `spc:iab-content-taxonomy-id-and-version-requirements` - IAB Content Taxonomy ID And Version Requirements
+- `spc:iab-content-taxonomy-contextual-mapping-requirements` - IAB Content Taxonomy Contextual Mapping Requirements
+- `spc:audience-permitted-use-and-restriction-requirements` - Audience Permitted Use And Restriction Requirements
+- `spc:data-clean-room-input-output-transparency-requirements` - Data Clean Room Input Output Transparency Requirements
+- `spc:audience-data-export-disclosure-requirements` - Audience Data Export Disclosure Requirements
+- `spc:audience-transparency-audit-evidence-requirements` - Audience Transparency Audit Evidence Requirements
 
 ## Install With uv
 

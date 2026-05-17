@@ -1,0 +1,37 @@
+{
+  "id": "spc:audience-data-export-disclosure-requirements",
+  "number": 2011,
+  "slug": "audience-data-export-disclosure-requirements",
+  "title": "Audience Data Export Disclosure Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream exported segment metadata, taxonomy references, provenance, recency, provider, and permitted-use fields.",
+    "excludes": [
+      "Export transport protocol selection",
+      "Non-audience data exports",
+      "Billing exports"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard",
+    "IAB Tech Lab Audience Taxonomy"
+  ],
+  "requirements": [
+    "Include disclosure metadata, taxonomy references, provenance references, recency values, provider metadata, and permitted-use fields in governed audience exports.",
+    "Validate exported records against downstream transparency requirements before release.",
+    "Retain export files, validation reports, and rejected export evidence."
+  ],
+  "verification": [
+    "audience export schema tests",
+    "export metadata completeness tests",
+    "export validation and rejection tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:audience-data-transparency-disclosure-policy",
+    "adr:audience-segment-provenance-policy",
+    "adr:audience-segment-recency-policy"
+  ]
+}

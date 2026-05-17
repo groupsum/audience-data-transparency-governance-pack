@@ -1,0 +1,24 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2002"
+number: 2002
+slug: "iab-data-transparency-target-requirements"
+title: "IAB Data Transparency Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "IAB data transparency targets must be curated as disclosure, source/provider, collection method, permitted use, restriction, export, and audit evidence surfaces. Source curation must keep disclosure targets separate from audience taxonomy ID targets and content taxonomy ID targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Requirements
+  
+  IAB data transparency targets must be curated as disclosure, source/provider, collection method, permitted use, restriction, export, and audit evidence surfaces. Source curation must keep disclosure targets separate from audience taxonomy ID targets and content taxonomy ID targets.
+  
+  ## Evidence
+  
+  The repository must retain target metadata that justifies downstream templates for disclosure records, source/provider metadata, permitted-use checks, export disclosures, and audit evidence.
+spec_kind: "governance"

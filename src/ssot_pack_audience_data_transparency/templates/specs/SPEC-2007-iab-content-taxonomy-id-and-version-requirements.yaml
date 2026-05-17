@@ -1,0 +1,34 @@
+{
+  "id": "spc:iab-content-taxonomy-id-and-version-requirements",
+  "number": 2007,
+  "slug": "iab-content-taxonomy-id-and-version-requirements",
+  "title": "IAB Content Taxonomy ID And Version Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream IAB Content Taxonomy identifiers, labels, hierarchy, and taxonomy version references.",
+    "excludes": [
+      "Audience taxonomy identifiers",
+      "Creative approval workflows",
+      "Recommendation taxonomy unrelated to advertising context"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Content Taxonomy"
+  ],
+  "requirements": [
+    "Store content taxonomy identifier, label, hierarchy path, and taxonomy version for mapped contextual categories.",
+    "Validate taxonomy identifiers and version references against the downstream-selected taxonomy source snapshot.",
+    "Represent deprecated, changed, missing, or locally extended content taxonomy values explicitly."
+  ],
+  "verification": [
+    "content taxonomy ID validation tests",
+    "taxonomy version reference tests",
+    "deprecated and missing taxonomy handling tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:iab-content-taxonomy-contextual-classification-policy"
+  ]
+}

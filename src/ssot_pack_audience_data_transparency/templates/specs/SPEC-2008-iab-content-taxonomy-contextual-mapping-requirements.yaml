@@ -1,0 +1,34 @@
+{
+  "id": "spc:iab-content-taxonomy-contextual-mapping-requirements",
+  "number": 2008,
+  "slug": "iab-content-taxonomy-contextual-mapping-requirements",
+  "title": "IAB Content Taxonomy Contextual Mapping Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream mapping from local contextual/content categories to IAB Content Taxonomy categories.",
+    "excludes": [
+      "Audience segment category mapping",
+      "Content moderation workflow",
+      "Search or recommendation taxonomy unrelated to advertising context"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Content Taxonomy"
+  ],
+  "requirements": [
+    "Maintain mapping records from local contextual/content categories to IAB Content Taxonomy categories.",
+    "Represent unmapped, ambiguous, many-to-one, and one-to-many mappings explicitly.",
+    "Retain contextual mapping validation outputs and taxonomy source snapshots."
+  ],
+  "verification": [
+    "local-to-IAB content mapping tests",
+    "ambiguous and unmapped contextual category tests",
+    "mapping evidence retention tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:iab-content-taxonomy-contextual-classification-policy"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "spc:audience-segment-recency-and-expiration-requirements",
+  "number": 2004,
+  "slug": "audience-segment-recency-and-expiration-requirements",
+  "title": "Audience Segment Recency And Expiration Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream freshness, update cadence, lookback window, expiration, and stale-segment handling for audience segments.",
+    "excludes": [
+      "General cache invalidation",
+      "Campaign attribution lookback windows",
+      "Non-audience event freshness"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard",
+    "IAB Tech Lab measurement and data transparency materials"
+  ],
+  "requirements": [
+    "Represent freshness timestamp, update cadence, lookback window, expiration timestamp or rule, and stale-segment state.",
+    "Prevent or flag use of expired or stale segments according to downstream policy.",
+    "Retain recency checks and stale-use reports as evidence."
+  ],
+  "verification": [
+    "freshness metadata validation tests",
+    "expiration and stale segment tests",
+    "recency evidence retention tests"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:audience-segment-recency-policy"
+  ]
+}

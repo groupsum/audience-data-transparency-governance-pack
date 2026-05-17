@@ -1,0 +1,38 @@
+{
+  "id": "spc:audience-transparency-audit-evidence-requirements",
+  "number": 2012,
+  "slug": "audience-transparency-audit-evidence-requirements",
+  "title": "Audience Transparency Audit Evidence Requirements",
+  "status": "active",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream audit evidence retained for audience data transparency, taxonomy mapping, provenance, recency, clean-room, and export claims.",
+    "excludes": [
+      "Evidence for non-audience telemetry",
+      "Ad supply-chain transparency evidence",
+      "Financial audit evidence unless selected downstream"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard",
+    "IAB Tech Lab Audience Taxonomy",
+    "IAB Tech Lab Content Taxonomy",
+    "IAB Data Clean Rooms Guidance",
+    "IAB Tech Lab measurement and data transparency materials"
+  ],
+  "requirements": [
+    "Retain source snapshots, taxonomy versions, disclosure records, mapping outputs, provenance records, recency checks, clean-room reports, export files, and validation reports.",
+    "Link evidence artifacts to the transparency target, processing step, validation result, export, and claim they substantiate.",
+    "Preserve evidence immutability or content hashes for audit-sensitive artifacts."
+  ],
+  "verification": [
+    "evidence inventory tests",
+    "claim-to-evidence linkage checks",
+    "content hash or immutability checks for audit artifacts"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:audience-transparency-audit-evidence-policy"
+  ]
+}
