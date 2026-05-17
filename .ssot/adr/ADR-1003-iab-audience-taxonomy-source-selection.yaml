@@ -1,0 +1,23 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1003"
+number: 1003
+slug: "iab-audience-taxonomy-source-selection"
+title: "IAB Audience Taxonomy Source Selection"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Audience segment classification needs a stable taxonomy authority for category identifiers, hierarchy, labels, and versioning."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Audience segment classification needs a stable taxonomy authority for category identifiers, hierarchy, labels, and versioning.
+  
+  ## Decision
+  
+  IAB Tech Lab Audience Taxonomy is selected as the canonical authority source for audience segment classification targets. The repository must curate audience taxonomy identifiers, labels, hierarchy, version references, and mapping expectations separately from content taxonomy and data transparency disclosure requirements.

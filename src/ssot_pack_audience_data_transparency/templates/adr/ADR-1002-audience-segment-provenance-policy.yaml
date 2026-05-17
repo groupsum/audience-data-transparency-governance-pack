@@ -1,0 +1,36 @@
+{
+  "id": "adr:audience-segment-provenance-policy",
+  "number": 1002,
+  "slug": "audience-segment-provenance-policy",
+  "title": "Audience Segment Provenance Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream lineage for audience segment origin, provider, collection basis, transformation, and activation/export.",
+    "excludes": [
+      "Raw event taxonomy unrelated to audience segments",
+      "Customer profile merge rules",
+      "Financial reporting lineage"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard",
+    "IAB Tech Lab measurement and data transparency materials"
+  ],
+  "decision": [
+    "Track audience segment provenance from source collection through transformation and activation/export.",
+    "Preserve provider, collection path, transformation, taxonomy mapping, and export lineage needed for transparency claims.",
+    "Fail or flag segment use when required provenance is missing or stale under downstream policy."
+  ],
+  "conformance_targets": [
+    "segment provenance lineage",
+    "source-to-activation traceability",
+    "missing provenance handling"
+  ],
+  "evidence_expectations": [
+    "lineage records",
+    "mapping outputs",
+    "activation/export records"
+  ]
+}

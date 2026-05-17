@@ -1,0 +1,23 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1004"
+number: 1004
+slug: "iab-content-taxonomy-source-selection"
+title: "IAB Content Taxonomy Source Selection"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Audience and advertising systems often use contextual/content classification alongside audience segment classification, but these are separate taxonomy surfaces."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Audience and advertising systems often use contextual/content classification alongside audience segment classification, but these are separate taxonomy surfaces.
+  
+  ## Decision
+  
+  IAB Tech Lab Content Taxonomy is selected as the canonical authority source for contextual and content classification targets. The repository must curate content taxonomy identifiers, labels, hierarchy, version references, and contextual mapping expectations separately from audience taxonomy targets.

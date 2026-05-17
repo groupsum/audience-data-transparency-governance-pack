@@ -1,0 +1,36 @@
+{
+  "id": "adr:data-clean-room-audience-output-transparency-policy",
+  "number": 1007,
+  "slug": "data-clean-room-audience-output-transparency-policy",
+  "title": "Data Clean Room Audience Output Transparency Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream disclosure and evidence requirements for clean-room audience inputs, outputs, constraints, and measurement or activation use.",
+    "excludes": [
+      "Clean-room vendor procurement",
+      "Cryptographic protocol implementation details unless selected downstream",
+      "Non-audience clean-room workflows"
+    ]
+  },
+  "authority_sources": [
+    "IAB Data Clean Rooms Guidance",
+    "IAB Tech Lab Attribution Data Matching Protocol where applicable"
+  ],
+  "decision": [
+    "Retain clean-room input and output transparency records when downstream audience workflows depend on clean-room processing.",
+    "Represent permitted use, aggregation, privacy, activation, and measurement constraints associated with clean-room outputs.",
+    "Keep clean-room evidence linked to segment provenance, export, and audit records."
+  ],
+  "conformance_targets": [
+    "clean-room input disclosure",
+    "clean-room output disclosure",
+    "clean-room constraint evidence"
+  ],
+  "evidence_expectations": [
+    "clean-room job reports",
+    "input and output disclosure records",
+    "aggregation and permitted-use evidence"
+  ]
+}

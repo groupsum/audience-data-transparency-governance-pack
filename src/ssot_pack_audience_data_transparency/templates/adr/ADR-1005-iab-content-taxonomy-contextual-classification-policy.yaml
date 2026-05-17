@@ -1,0 +1,35 @@
+{
+  "id": "adr:iab-content-taxonomy-contextual-classification-policy",
+  "number": 1005,
+  "slug": "iab-content-taxonomy-contextual-classification-policy",
+  "title": "IAB Content Taxonomy Contextual Classification Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream classification of contextual and content categories against IAB Content Taxonomy identifiers, labels, hierarchy, and versions.",
+    "excludes": [
+      "Audience segment taxonomy mapping",
+      "Creative content review",
+      "Search or recommendation taxonomy unrelated to advertising context"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Content Taxonomy"
+  ],
+  "decision": [
+    "Use IAB Content Taxonomy as the canonical classification target for governed contextual/content categories.",
+    "Store taxonomy identifier, label, hierarchy, and version metadata with mapped content categories.",
+    "Represent unmapped, ambiguous, deprecated, or locally extended contextual categories explicitly."
+  ],
+  "conformance_targets": [
+    "content taxonomy ID mapping",
+    "taxonomy version reference",
+    "contextual category mapping evidence"
+  ],
+  "evidence_expectations": [
+    "taxonomy source snapshot",
+    "contextual mapping tables",
+    "validation reports"
+  ]
+}

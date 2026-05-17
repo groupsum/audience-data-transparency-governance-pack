@@ -31,16 +31,29 @@ class GovernancePackManifestTests(unittest.TestCase):
     def test_pack_manifest_contract_is_exposed(self) -> None:
         manifest = load_pack_manifest()
         self.assertEqual("ssot-pack-audience-data-transparency", manifest["metadata"]["origin"]["package_name"])
-        self.assertEqual(2, len(manifest["documents"]["adr"]))
+        self.assertEqual(8, len(manifest["documents"]["adr"]))
         self.assertEqual(4, len(manifest["documents"]["spec"]))
 
     def test_packaged_documents_are_readable(self) -> None:
         adr_manifest = load_document_manifest("adr")
         spec_manifest = load_document_manifest("spec")
-        self.assertEqual("adr:audience-data-transparency-boundary", adr_manifest[0]["id"])
+        self.assertEqual("adr:audience-data-transparency-disclosure-policy", adr_manifest[0]["id"])
         self.assertEqual("spc:iab-data-transparency-contract", spec_manifest[0]["id"])
-        self.assertIn("Audience Data Transparency And Taxonomy", read_packaged_document_text("adr", adr_manifest[0]["filename"]))
+        self.assertIn("Audience Data Transparency Disclosure Policy", read_packaged_document_text("adr", adr_manifest[0]["filename"]))
         self.assertIn("Audience Data Transparency And Taxonomy", read_packaged_document_text("spec", spec_manifest[0]["filename"]))
+
+    def test_packaged_adr_documents_are_downstream_portable(self) -> None:
+        forbidden_terms = (
+            "pack:",
+            "This pack",
+            "extension-pack",
+            "governance-pack",
+            "ssot-pack",
+        )
+        for entry in load_document_manifest("adr"):
+            text = read_packaged_document_text("adr", entry["filename"])
+            for term in forbidden_terms:
+                self.assertNotIn(term, text)
 
 
 if __name__ == "__main__":

@@ -27,8 +27,14 @@ Audience Data Transparency And Taxonomy
 
 ## Included ADRs
 
-- `adr:audience-data-transparency-boundary` - Audience Data Transparency Boundary
-- `adr:audience-taxonomy-and-provenance-policy` - Audience Taxonomy And Provenance Policy
+- `adr:audience-data-transparency-disclosure-policy` - Audience Data Transparency Disclosure Policy
+- `adr:audience-segment-provenance-policy` - Audience Segment Provenance Policy
+- `adr:audience-segment-recency-policy` - Audience Segment Recency Policy
+- `adr:iab-audience-taxonomy-classification-policy` - IAB Audience Taxonomy Classification Policy
+- `adr:iab-content-taxonomy-contextual-classification-policy` - IAB Content Taxonomy Contextual Classification Policy
+- `adr:audience-data-provider-and-permitted-use-policy` - Audience Data Provider And Permitted Use Policy
+- `adr:data-clean-room-audience-output-transparency-policy` - Data Clean Room Audience Output Transparency Policy
+- `adr:audience-transparency-audit-evidence-policy` - Audience Transparency Audit Evidence Policy
 
 ## Included SPECs
 

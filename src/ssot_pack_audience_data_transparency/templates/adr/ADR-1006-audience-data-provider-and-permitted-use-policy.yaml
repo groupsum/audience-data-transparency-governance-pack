@@ -1,0 +1,35 @@
+{
+  "id": "adr:audience-data-provider-and-permitted-use-policy",
+  "number": 1006,
+  "slug": "audience-data-provider-and-permitted-use-policy",
+  "title": "Audience Data Provider And Permitted Use Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream provider identity, use permissions, restrictions, eligibility, and policy metadata for audience data.",
+    "excludes": [
+      "Consent-string transport",
+      "Contract lifecycle management",
+      "Identity graph construction"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard"
+  ],
+  "decision": [
+    "Represent audience data provider identity and permitted-use metadata before segment activation or export.",
+    "Evaluate use restrictions and eligibility metadata before governed audience data is made available downstream.",
+    "Retain provider and permitted-use evidence for audit and conformance claims."
+  ],
+  "conformance_targets": [
+    "provider identity metadata",
+    "permitted-use and restriction checks",
+    "activation eligibility evidence"
+  ],
+  "evidence_expectations": [
+    "provider records",
+    "policy checks",
+    "eligibility reports"
+  ]
+}

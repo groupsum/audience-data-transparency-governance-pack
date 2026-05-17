@@ -1,0 +1,36 @@
+{
+  "id": "adr:audience-segment-recency-policy",
+  "number": 1003,
+  "slug": "audience-segment-recency-policy",
+  "title": "Audience Segment Recency Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream representation and enforcement of audience segment freshness, update cadence, lookback windows, and expiration.",
+    "excludes": [
+      "General cache invalidation",
+      "Non-audience event freshness",
+      "Campaign attribution lookback policy"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard",
+    "IAB Tech Lab measurement and data transparency materials"
+  ],
+  "decision": [
+    "Represent freshness timestamps, refresh cadence, lookback windows, and expiration for audience segments used in governed workflows.",
+    "Prevent or flag use of stale segments according to downstream policy.",
+    "Retain recency and expiration evidence for segment activation and export claims."
+  ],
+  "conformance_targets": [
+    "segment freshness metadata",
+    "lookback and expiration rules",
+    "stale segment handling"
+  ],
+  "evidence_expectations": [
+    "freshness timestamps",
+    "expiration checks",
+    "stale segment reports"
+  ]
+}

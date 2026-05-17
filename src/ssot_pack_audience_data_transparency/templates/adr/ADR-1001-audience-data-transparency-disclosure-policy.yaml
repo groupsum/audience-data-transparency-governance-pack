@@ -1,0 +1,35 @@
+{
+  "id": "adr:audience-data-transparency-disclosure-policy",
+  "number": 1001,
+  "slug": "audience-data-transparency-disclosure-policy",
+  "title": "Audience Data Transparency Disclosure Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream disclosure requirements for audience data and segment use.",
+    "excludes": [
+      "Consent-string transport",
+      "Customer identity profile schema",
+      "Advertising supply-chain seller transparency"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard"
+  ],
+  "decision": [
+    "Require audience data disclosures before segments are activated, exported, or used in governed decisioning.",
+    "Represent disclosure metadata for data source, provider, collection method, permitted use, restrictions, and segment context.",
+    "Retain disclosure records as evidence for downstream audience transparency claims."
+  ],
+  "conformance_targets": [
+    "audience disclosure metadata",
+    "segment use disclosure",
+    "transparency evidence retention"
+  ],
+  "evidence_expectations": [
+    "disclosure records",
+    "provider/source metadata",
+    "validation reports"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "adr:iab-audience-taxonomy-classification-policy",
+  "number": 1004,
+  "slug": "iab-audience-taxonomy-classification-policy",
+  "title": "IAB Audience Taxonomy Classification Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream classification of local audience segments against IAB Audience Taxonomy identifiers, labels, hierarchy, and versions.",
+    "excludes": [
+      "Content/contextual taxonomy mapping",
+      "Customer identity resolution",
+      "Activation platform optimization"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Audience Taxonomy"
+  ],
+  "decision": [
+    "Use IAB Audience Taxonomy as the canonical classification target for governed audience segment categories.",
+    "Store taxonomy identifier, label, hierarchy, and version metadata with mapped audience segments.",
+    "Represent unmapped, ambiguous, deprecated, or locally extended categories explicitly."
+  ],
+  "conformance_targets": [
+    "audience taxonomy ID mapping",
+    "taxonomy version reference",
+    "unmapped or ambiguous category handling"
+  ],
+  "evidence_expectations": [
+    "taxonomy source snapshot",
+    "mapping tables",
+    "validation reports"
+  ]
+}

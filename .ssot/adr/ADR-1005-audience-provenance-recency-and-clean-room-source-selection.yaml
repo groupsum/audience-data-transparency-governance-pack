@@ -1,0 +1,23 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1005"
+number: 1005
+slug: "audience-provenance-recency-and-clean-room-source-selection"
+title: "Audience Provenance Recency And Clean Room Source Selection"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Audience transparency depends on knowing where segments came from, how recently they were refreshed, and how clean-room workflows disclose inputs and outputs."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Audience transparency depends on knowing where segments came from, how recently they were refreshed, and how clean-room workflows disclose inputs and outputs.
+  
+  ## Decision
+  
+  Segment provenance, recency disclosure, IAB Data Clean Rooms Guidance, and ADMaP-adjacent measurement transparency materials are selected as authority inputs when they govern audience input/output transparency, freshness, permitted use, aggregation constraints, or measurement/activation disclosure.

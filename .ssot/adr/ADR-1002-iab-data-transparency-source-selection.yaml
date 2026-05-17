@@ -1,0 +1,23 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1002"
+number: 1002
+slug: "iab-data-transparency-source-selection"
+title: "IAB Data Transparency Source Selection"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Audience segment use requires disclosure of data sources, providers, collection methods, permitted uses, restrictions, and segment metadata."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Audience segment use requires disclosure of data sources, providers, collection methods, permitted uses, restrictions, and segment metadata.
+  
+  ## Decision
+  
+  IAB Tech Lab Data Transparency Standard and related data transparency materials are selected as canonical authority sources for audience data disclosure targets. These sources govern disclosure metadata and permitted-use representation rather than local segment modeling alone.

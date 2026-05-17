@@ -1,0 +1,39 @@
+{
+  "id": "adr:audience-transparency-audit-evidence-policy",
+  "number": 1008,
+  "slug": "audience-transparency-audit-evidence-policy",
+  "title": "Audience Transparency Audit Evidence Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "scope": {
+    "governs": "Downstream evidence retained for audience data transparency, taxonomy mapping, provenance, recency, clean-room, export, and audit claims.",
+    "excludes": [
+      "Evidence for non-audience telemetry",
+      "Ad supply-chain transparency evidence",
+      "Financial audit evidence unless selected downstream"
+    ]
+  },
+  "authority_sources": [
+    "IAB Tech Lab Data Transparency Standard",
+    "IAB Tech Lab Audience Taxonomy",
+    "IAB Tech Lab Content Taxonomy",
+    "IAB Data Clean Rooms Guidance",
+    "IAB Tech Lab measurement and data transparency materials"
+  ],
+  "decision": [
+    "Retain source snapshots, taxonomy versions, disclosure records, provenance records, recency checks, mapping outputs, clean-room reports, exports, and validation reports.",
+    "Link evidence artifacts to the transparency target, processing step, validation result, and claim they substantiate.",
+    "Preserve evidence immutability or content hashes for audit-sensitive artifacts."
+  ],
+  "conformance_targets": [
+    "audience evidence inventory",
+    "taxonomy and disclosure evidence linkage",
+    "audit-ready transparency records"
+  ],
+  "evidence_expectations": [
+    "source snapshots",
+    "taxonomy versions",
+    "validation and audit reports"
+  ]
+}

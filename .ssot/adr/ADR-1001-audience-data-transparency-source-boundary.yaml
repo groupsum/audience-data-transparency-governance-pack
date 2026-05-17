@@ -1,0 +1,25 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1001"
+number: 1001
+slug: "audience-data-transparency-source-boundary"
+title: "Audience Data Transparency Source Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "This repository curates authority sources for audience data transparency, audience taxonomy, content taxonomy, segment provenance, recency disclosures, and clean-room audience output transparency."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  This repository curates authority sources for audience data transparency, audience taxonomy, content taxonomy, segment provenance, recency disclosures, and clean-room audience output transparency.
+  
+  ## Decision
+  
+  The pack authority boundary is limited to audience data transparency and taxonomy targets. Canonical sources include IAB Tech Lab Data Transparency Standard, IAB Tech Lab Audience Taxonomy, IAB Tech Lab Content Taxonomy, IAB Data Clean Rooms Guidance, and IAB measurement/data transparency materials where they define audience data disclosure, provenance, recency, or clean-room transparency expectations.
+  
+  The boundary excludes general event telemetry, customer identity profile schema, consent transport, ad supply-chain transparency, and advertising measurement quality unless those sources are used only as context for an audience transparency target.
