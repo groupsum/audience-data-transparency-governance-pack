@@ -47,29 +47,29 @@ Audience Data Transparency And Taxonomy
 
 ## Included ADRs
 
-- `adr:audience-data-transparency-disclosure-policy` - Audience Data Transparency Disclosure Policy
-- `adr:audience-segment-provenance-policy` - Audience Segment Provenance Policy
-- `adr:audience-segment-recency-policy` - Audience Segment Recency Policy
-- `adr:iab-audience-taxonomy-classification-policy` - IAB Audience Taxonomy Classification Policy
-- `adr:iab-content-taxonomy-contextual-classification-policy` - IAB Content Taxonomy Contextual Classification Policy
-- `adr:audience-data-provider-and-permitted-use-policy` - Audience Data Provider And Permitted Use Policy
-- `adr:data-clean-room-audience-output-transparency-policy` - Data Clean Room Audience Output Transparency Policy
-- `adr:audience-transparency-audit-evidence-policy` - Audience Transparency Audit Evidence Policy
+- [`adr:audience-data-transparency-disclosure-policy`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/adr/ADR-1001-audience-data-transparency-disclosure-policy.yaml) - Audience Data Transparency Disclosure Policy
+- [`adr:audience-segment-provenance-policy`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/adr/ADR-1002-audience-segment-provenance-policy.yaml) - Audience Segment Provenance Policy
+- [`adr:audience-segment-recency-policy`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/adr/ADR-1003-audience-segment-recency-policy.yaml) - Audience Segment Recency Policy
+- [`adr:iab-audience-taxonomy-classification-policy`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/adr/ADR-1004-iab-audience-taxonomy-classification-policy.yaml) - IAB Audience Taxonomy Classification Policy
+- [`adr:iab-content-taxonomy-contextual-classification-policy`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/adr/ADR-1005-iab-content-taxonomy-contextual-classification-policy.yaml) - IAB Content Taxonomy Contextual Classification Policy
+- [`adr:audience-data-provider-and-permitted-use-policy`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/adr/ADR-1006-audience-data-provider-and-permitted-use-policy.yaml) - Audience Data Provider And Permitted Use Policy
+- [`adr:data-clean-room-audience-output-transparency-policy`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/adr/ADR-1007-data-clean-room-audience-output-transparency-policy.yaml) - Data Clean Room Audience Output Transparency Policy
+- [`adr:audience-transparency-audit-evidence-policy`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/adr/ADR-1008-audience-transparency-audit-evidence-policy.yaml) - Audience Transparency Audit Evidence Policy
 
 ## Included SPECs
 
-- `spc:iab-data-transparency-disclosure-record-requirements` - IAB Data Transparency Disclosure Record Requirements
-- `spc:audience-segment-source-and-provider-requirements` - Audience Segment Source And Provider Requirements
-- `spc:audience-segment-provenance-lineage-requirements` - Audience Segment Provenance Lineage Requirements
-- `spc:audience-segment-recency-and-expiration-requirements` - Audience Segment Recency And Expiration Requirements
-- `spc:iab-audience-taxonomy-id-and-version-requirements` - IAB Audience Taxonomy ID And Version Requirements
-- `spc:iab-audience-taxonomy-mapping-requirements` - IAB Audience Taxonomy Mapping Requirements
-- `spc:iab-content-taxonomy-id-and-version-requirements` - IAB Content Taxonomy ID And Version Requirements
-- `spc:iab-content-taxonomy-contextual-mapping-requirements` - IAB Content Taxonomy Contextual Mapping Requirements
-- `spc:audience-permitted-use-and-restriction-requirements` - Audience Permitted Use And Restriction Requirements
-- `spc:data-clean-room-input-output-transparency-requirements` - Data Clean Room Input Output Transparency Requirements
-- `spc:audience-data-export-disclosure-requirements` - Audience Data Export Disclosure Requirements
-- `spc:audience-transparency-audit-evidence-requirements` - Audience Transparency Audit Evidence Requirements
+- [`spc:iab-data-transparency-disclosure-record-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2001-iab-data-transparency-disclosure-record-requirements.yaml) - IAB Data Transparency Disclosure Record Requirements
+- [`spc:audience-segment-source-and-provider-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2002-audience-segment-source-and-provider-requirements.yaml) - Audience Segment Source And Provider Requirements
+- [`spc:audience-segment-provenance-lineage-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2003-audience-segment-provenance-lineage-requirements.yaml) - Audience Segment Provenance Lineage Requirements
+- [`spc:audience-segment-recency-and-expiration-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2004-audience-segment-recency-and-expiration-requirements.yaml) - Audience Segment Recency And Expiration Requirements
+- [`spc:iab-audience-taxonomy-id-and-version-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2005-iab-audience-taxonomy-id-and-version-requirements.yaml) - IAB Audience Taxonomy ID And Version Requirements
+- [`spc:iab-audience-taxonomy-mapping-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2006-iab-audience-taxonomy-mapping-requirements.yaml) - IAB Audience Taxonomy Mapping Requirements
+- [`spc:iab-content-taxonomy-id-and-version-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2007-iab-content-taxonomy-id-and-version-requirements.yaml) - IAB Content Taxonomy ID And Version Requirements
+- [`spc:iab-content-taxonomy-contextual-mapping-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2008-iab-content-taxonomy-contextual-mapping-requirements.yaml) - IAB Content Taxonomy Contextual Mapping Requirements
+- [`spc:audience-permitted-use-and-restriction-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2009-audience-permitted-use-and-restriction-requirements.yaml) - Audience Permitted Use And Restriction Requirements
+- [`spc:data-clean-room-input-output-transparency-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2010-data-clean-room-input-output-transparency-requirements.yaml) - Data Clean Room Input Output Transparency Requirements
+- [`spc:audience-data-export-disclosure-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2011-audience-data-export-disclosure-requirements.yaml) - Audience Data Export Disclosure Requirements
+- [`spc:audience-transparency-audit-evidence-requirements`](https://github.com/groupsum/audience-data-transparency-governance-pack/blob/master/src/ssot_pack_audience_data_transparency/templates/specs/SPEC-2012-audience-transparency-audit-evidence-requirements.yaml) - Audience Transparency Audit Evidence Requirements
 
 ## Install With uv
 
