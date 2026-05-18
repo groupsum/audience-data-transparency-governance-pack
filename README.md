@@ -1,10 +1,13 @@
+<div align="center">
+
 # audience-data-transparency-governance-pack
 
 [![PyPI version](https://img.shields.io/pypi/v/audience-data-transparency-governance-pack.svg)](https://pypi.org/project/audience-data-transparency-governance-pack/)
 [![Python versions](https://img.shields.io/pypi/pyversions/audience-data-transparency-governance-pack.svg)](https://pypi.org/project/audience-data-transparency-governance-pack/)
 [![License](https://img.shields.io/pypi/l/audience-data-transparency-governance-pack.svg)](https://pypi.org/project/audience-data-transparency-governance-pack/)
 [![Publish](https://github.com/groupsum/audience-data-transparency-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/audience-data-transparency-governance-pack/actions/workflows/publish.yml)
-[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/audience-data-transparency-governance-pack)
+
+</div>
 
 Installable SSOT governance pack for audience-data transparency, audience taxonomy, content taxonomy, segment provenance, and recency disclosures.
 
