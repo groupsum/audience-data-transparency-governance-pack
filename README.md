@@ -28,7 +28,6 @@ Use this package when a downstream repository needs to answer: which standards, 
 ## Pack Metadata
 
 - Pack ID: `pack:audience-data-transparency`
-- Priority: `P3.3`
 - PyPI package: `audience-data-transparency-governance-pack`
 - Import package: `ssot_pack_audience_data_transparency`
 - GitHub repository: `groupsum/audience-data-transparency-governance-pack`
