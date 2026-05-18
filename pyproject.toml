@@ -3,7 +3,7 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ssot-pack-audience-data-transparency"
+name = "audience-data-transparency-governance-pack"
 version = "0.1.0"
 description = "Installable SSOT governance pack for audience-data transparency, audience taxonomy, content taxonomy, segment provenance, and recency disclosures."
 readme = "README.md"
@@ -44,9 +44,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/groupsum/ssot-pack-audience-data-transparency"
-Repository = "https://github.com/groupsum/ssot-pack-audience-data-transparency"
-Issues = "https://github.com/groupsum/ssot-pack-audience-data-transparency/issues"
+Homepage = "https://github.com/groupsum/audience-data-transparency-governance-pack"
+Repository = "https://github.com/groupsum/audience-data-transparency-governance-pack"
+Issues = "https://github.com/groupsum/audience-data-transparency-governance-pack/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

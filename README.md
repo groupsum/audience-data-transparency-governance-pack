@@ -1,4 +1,4 @@
-# ssot-pack-audience-data-transparency
+# audience-data-transparency-governance-pack
 
 Installable SSOT governance pack for audience-data transparency, audience taxonomy, content taxonomy, segment provenance, and recency disclosures.
 
@@ -8,10 +8,10 @@ This repository is an installable SSOT Registry governance pack. It packages imm
 
 - Pack ID: `pack:audience-data-transparency`
 - Priority: `P3.3`
-- PyPI package: `ssot-pack-audience-data-transparency`
+- PyPI package: `audience-data-transparency-governance-pack`
 - Import package: `ssot_pack_audience_data_transparency`
 - GitHub repository: `groupsum/audience-data-transparency-governance-pack`
-- Reservation owner: `extension-pack:ssot-pack-audience-data-transparency`
+- Reservation owner: `extension-pack:audience-data-transparency-governance-pack`
 
 ## Domain Focus
 
@@ -54,15 +54,15 @@ Audience Data Transparency And Taxonomy
 ## Install With uv
 
 ```bash
-uv add ssot-pack-audience-data-transparency
-uv add ssot-registry ssot-pack-audience-data-transparency
+uv add audience-data-transparency-governance-pack
+uv add ssot-registry audience-data-transparency-governance-pack
 ```
 
 ## Use With The SSOT Registry CLI
 
 ```bash
-uvx --from ssot-registry ssot pack install ssot-pack-audience-data-transparency
-uvx --from ssot-registry ssot pack sync . ssot-pack-audience-data-transparency
+uvx --from ssot-registry ssot pack install audience-data-transparency-governance-pack
+uvx --from ssot-registry ssot pack sync . audience-data-transparency-governance-pack
 uv run ssot adr list .
 uv run ssot spec list .
 ```
@@ -79,5 +79,5 @@ spec_manifest = load_document_manifest("spec")
 ## Resources
 
 - GitHub repository: https://github.com/groupsum/audience-data-transparency-governance-pack
-- PyPI package: https://pypi.org/project/ssot-pack-audience-data-transparency/
+- PyPI package: https://pypi.org/project/audience-data-transparency-governance-pack/
 - SSOT Registry: https://pypi.org/project/ssot-registry/

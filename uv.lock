@@ -78,7 +78,7 @@ wheels = [
 ]
 
 [[package]]
-name = "ssot-pack-audience-data-transparency"
+name = "audience-data-transparency-governance-pack"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

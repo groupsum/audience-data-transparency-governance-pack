@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "ssot_package_name": "ssot-pack-audience-data-transparency",
+  "ssot_package_name": "audience-data-transparency-governance-pack",
   "origin": {
     "id": "pack:audience-data-transparency",
-    "package_name": "ssot-pack-audience-data-transparency",
+    "package_name": "audience-data-transparency-governance-pack",
     "import_name": "ssot_pack_audience_data_transparency",
     "kind": "governance-pack",
     "title": "Audience Data Transparency And Taxonomy",
@@ -19,7 +19,7 @@
   "trust": {
     "trusted_by_default": false,
     "origin": "extension-pack",
-    "reservation_owner": "extension-pack:ssot-pack-audience-data-transparency"
+    "reservation_owner": "extension-pack:audience-data-transparency-governance-pack"
   },
   "documents": {
     "adr": {
