@@ -33,7 +33,7 @@ Use this package when a downstream repository needs to answer: which standards, 
 - Pack ID: `pack:audience-data-transparency`
 - PyPI package: `audience-data-transparency-governance-pack`
 - Import package: `ssot_pack_audience_data_transparency`
-- GitHub repository: `groupsum/audience-data-transparency-governance-pack`
+- GitHub repository: [groupsum/audience-data-transparency-governance-pack](https://github.com/groupsum/audience-data-transparency-governance-pack)
 - Reservation owner: `extension-pack:audience-data-transparency-governance-pack`
 
 ## Domain Focus
